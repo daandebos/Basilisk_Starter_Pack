@@ -10,7 +10,7 @@
 
 #define ROUND_TO_INT(x) ( (int)(x + 0.5) )
 
-#include "../../basilisk/src/tag.h"
+#include "tag.h"
 
 char *folder_name = NULL;
 FILE *log_file = NULL;
