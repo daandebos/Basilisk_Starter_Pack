@@ -1,3 +1,6 @@
+#ifndef BASILISK_HEADER_1
+#define BASILISK_HEADER_1
+#line 1 "./../fluidlab_headers/fluidlab_pack.h"
 #ifndef VTK_OUTPUT_TYPE
   #define VTK_OUTPUT_TYPE float
   #define MPI_VTK_OUTPUT_TYPE MPI_FLOAT
@@ -7,7 +10,7 @@
 
 #define ROUND_TO_INT(x) ( (int)(x + 0.5) )
 
-#include "tag.h"
+#include "../../basilisk/src/tag.h"
 
 char *folder_name = NULL;
 FILE *log_file = NULL;
@@ -1342,3 +1345,5 @@ void PrintUniformMeshDataDump(double time, int nx, int ny,
   return;
 }
 
+
+#endif

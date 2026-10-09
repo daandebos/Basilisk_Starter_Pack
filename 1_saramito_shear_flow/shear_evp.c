@@ -1,6 +1,6 @@
-#include "../../basilisk/src/navier-stokes/centered.h"
-#include "../../basilisk/src/two-phase.h" // I didnt need to use two-phase here to be honest
-#include "../../basilisk/src/log-conform.h"
+#include "navier-stokes/centered.h"
+#include "two-phase.h" // I didnt need to use two-phase here to be honest
+#include "log-conform.h"
 #include "../fluidlab_headers/fluidlab_pack.h"
 
 // Comment or uncomment the line below to do Oscillatory shear or start-up shear flow
